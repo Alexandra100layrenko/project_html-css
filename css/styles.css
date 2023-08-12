@@ -138,9 +138,14 @@ body{
 }
 
 .product-item{
+  display: block;
   margin-left: auto;
   margin-right: auto;
  /* width: calc((100% - 16px) / 2);*/
+}
+
+.product-img{
+  margin-bottom: 16px;
 }
 
 .text-titel-product{
@@ -151,3 +156,8 @@ body{
   letter-spacing: 0em;
   text-align: left;
 }
+
+/*.advantages-block {
+  visibility: hidden;
+  display: none;
+}*/
