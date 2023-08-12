@@ -82,7 +82,13 @@ body{
 .plan-container {
   display: flex;
 }
-    
+
+.plan-list { 
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
+} 
+
 .plan-text{
   color: #0A224A;
   font-family: Roboto;
@@ -93,21 +99,15 @@ body{
   text-align: left;
 }
   
-.plan-details {
-  margin: 0 auto;
-  padding: 60px;
-  background: url('http://raventools.com/wp-content/themes/raven-wp-theme-2014/images/plan-bottom-border.png') top center no-repeat;
-}
-  .plan-list { 
-  padding-left: 0;
-  list-style: none;
-}      
+
+  
+
+
 .plan-item {
   border-top: 1px solid #0A224A;
-  padding: 20px 0;
-  font-weight: bold;
-  color: shade($boulder, 20%);
+  padding: 30px 0;
 }
+
 .plan-item:last-child {
   border-bottom: 1px solid #0A224A;
 }
@@ -119,4 +119,5 @@ span {
   line-height: 1.5;
   letter-spacing: 0em;
   text-align: right;
+  color: #0A224A;
 }
