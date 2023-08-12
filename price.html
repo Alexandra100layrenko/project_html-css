@@ -16,13 +16,83 @@
 <body>
   <!-- SECTION-3 -->
   <section class="plan-container container">
+    <h2 class="sub-title-plan visually-hidden">Product price</h2>
     <ul class="plan-list">
-      <li class="plan-item"><h2 class="plan-text">Chairs</h2><span>from 200₴</span></li>
-      <li class="plan-item"><h2 class="plan-text">Tables</h2><span>from 250₴</span></li>
-      <li class="plan-item"><h2 class="plan-text">Dressers</h2><span>from 300₴</span></li>
-      <li class="plan-item"><h2 class="plan-text">Sofas</h2><span>from 500₴</span></li>
+      <li class="plan-item"><h2 class="plan-text">Chairs</h2><p class="plan-options">from 200₴</p></li>
+      <li class="plan-item"><h2 class="plan-text">Tables</h2><p class="plan-options">from 250₴</p></li>
+      <li class="plan-item"><h2 class="plan-text">Dressers</h2><p class="plan-options">from 300₴</p></li>
+      <li class="plan-item"><h2 class="plan-text">Sofas</h2><p class="plan-options">from 500₴</p></li>
     </ul>
-  </section> 
+  </section>
+  <!-- SECTION-4 -->
+  <section class="product">
+    <h2 class="sub-title-product">Our products</h2>
+    <ul class="product-list">
+      <li class="product-item">
+        <a href="#" class="product-link">
+          <picture>
+            <source srcset="./images/minimalist-mobile.jpg 1x, ./images/minimalist-mobile-2x.jpg 2x, ./minimalist-mobile-3x.jpg 3x" 
+              media="(min-widht: 320px)" >
+            <source srcset="./images/minimalist-tab.jpg 1x, ./images/minimalist-tab-2x.jpg 2x, ./images/minimalist-tab-3x.jpg 3x" 
+              media="(min-widht: 768px)" >
+            <source srcset="./images/minimalist-dectop.jpg 1x, ./images/minimalist-dectop-2x.jpg 2x, ./images/minimalist-dectop-3x.jpg 3x" 
+              media="(min-widht: 1440px)" >
+            <img src="./images/minimalist-mobile.jpg" alt="Minimalist storage solutions">Minimalist storage solutions
+          </picture>
+          <h3 class="text-titel-product">The modern platform bed</h3>
+          <p class="text-titel-descriptions">750$</p>
+          </a>
+      </li>
+      <li class="product-item">
+        <a href="#" class="product-link">
+          <picture>
+            <source srcset="./cozy-mobile.jpg 1x, ./images/cozy-mobile-2x.jpg 2x, ./cozy-mobile-3x.jpg 3x" 
+              media="(min-widht: 320px)" >
+            <source srcset="./images/handcrafted-minimalist-tab.jpg 1x, ./images/handcrafted-minimalist-tab-2x.jpg 2x, ./images/handcrafted-minimalist-tab-3x.jpg 3x" 
+              media="(min-widht: 768px)" >
+            <source srcset="./images/handcrafted-minimalist-dectop.jpg 1x, ./images/handcrafted-minimalist-dectop-2x.jpg 2x, ./images/handcrafted-minimalist-dectop-3x.jpg 3x" 
+              media="(min-widht: 1440px)" >
+            <img src="./images/cozy-mobile.jpg" alt="Handcrafted minimalist seating">Handcrafted minimalist seating
+          </picture>
+          <h3 class="text-titel-product">The Cozy Lounge Chair</h3>
+          <p class="text-titel-descriptions">230$</p>
+        </a>
+      </li>
+      <li class="product-item">
+        <a href="#" class="product-link">
+          <picture>
+            <source srcset="./industrial-mobile.jpg 1x, ./images/industrial-mobile-2x.jpg 2x, ./industrial-mobile-3x.jpg 3x" 
+              media="(min-widht: 320px)" >
+            <source srcset="./images/handcrafted-minimalist-tab.jpg 1x, ./images/handcrafted-minimalist-tab-2x.jpg 2x, ./images/handcrafted-minimalist-tab-3x.jpg 3x" 
+              media="(min-widht: 768px)" 
+              class="visually-hidden">
+            <source srcset="./images/steek-simple-dectop.jpg 1x, ./images/steek-simple-dectop-2x.jpg 2x, ./images/steek-simple-dectop-3x.jpg 3x" 
+              media="(min-widht: 1440px)" >
+            <img src="./images/industrial-mobile.jpg" alt="Sleek and simple tables">Sleek and simple tables
+          </picture>
+          <h3 class="text-titel-product">The industrial accent chair</h3>
+          <p class="text-titel-descriptions">250$</p>
+        </a>
+      </li>
+      <li class="product-item">
+        <a href="#" class="product-link">
+          <picture>
+            <source srcset="./images/handcrafted-minimalist-tab.jpg 1x, ./images/handcrafted-minimalist-tab-2x.jpg 2x, ./images/handcrafted-minimalist-tab-3x.jpg 3x" 
+              media="(min-widht: 320px)" 
+              class="visually-hidden">
+            <source srcset="./images/handcrafted-minimalist-tab.jpg 1x, ./images/handcrafted-minimalist-tab-2x.jpg 2x, ./images/handcrafted-minimalist-tab-3x.jpg 3x" 
+              media="(min-widht: 768px)" 
+              class="visually-hidden">
+            <source srcset="./images/minimalist-seating-dectop.jpg 1x, ./images/minimalist-seating-dectop-2x.jpg 2x, ./images/minimalist-seating-dectop-3x.jpg 3x" 
+              media="(min-widht: 1440px)" >
+            <img src="./images/minimalist-seating-dectop.jpg" alt="Minimalist seating for every space">Minimalist seating for every space
+          </picture>
+          <h3 class="text-titel-product"></h3>
+          <p class="text-titel-descriptions"></p>
+        </a>
+      </li>
+    </ul>
+  </section>
   <script src="./js/modal.js"></script>
   <script src="./js/menu.js"></script>
 </body>
