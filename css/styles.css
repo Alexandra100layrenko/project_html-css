@@ -103,15 +103,20 @@ body{
   list-style: none;
 }      
 .plan-item {
-  border-top: 3px solid #e8edef;
+  border-top: 1px solid #0A224A;
   padding: 20px 0;
   font-weight: bold;
   color: shade($boulder, 20%);
-  &:last-child {
-  border-bottom: 3px solid #e8edef;
+}
+.plan-item:last-child {
+  border-bottom: 1px solid #0A224A;
 }
         
 span {
-  font-weight: lighter;
-  color: $boulder;
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.5;
+letter-spacing: 0em;
+text-align: right;
 }
