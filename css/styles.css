@@ -138,13 +138,7 @@ body{
   flex-wrap: wrap;
   flex-direction: row;
   gap: 30px;
-}
-
-.product-item{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- /* width: calc((100% - 16px) / 2);*/
+  justify-content: center;
 }
 
 .product-img{

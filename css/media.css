@@ -13,11 +13,32 @@
       max-width: 767px;
     }
     /* === 3 === */
-    /* === 4 === */
-    .wraper-dec{
-      visibility: visible;
-      display: block;
+    .plan-text{
+      font-size: 32px;
+      line-height: 1.4;
     }
+    .plan-item {
+      min-width: 704px;
+    }
+    .plan-options {
+      font-size: 18px;
+    } 
+/* === 4 === */
+  .sub-title-product{
+    font-size: 32px;
+    line-height: 1.4;
+  }
+  .product-list {
+    gap: 16px;
+  }
+  .text-titel-product{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .wraper-tab{
+    visibility: visible;
+    display: block;
+  }
 }
   
 /* ==================== DESTOP ==================== */
@@ -26,8 +47,14 @@
       max-width: 1440px;
     }
     /* === 3 === */
+    .plan-item {
+      min-width: 1096px;
+  }
     /* === 4 === */
-    .wraper-tab{
+    .product-list {
+      gap: 24px;
+    }
+    .wraper-dec{
       visibility: visible;
       display: block;
     }
