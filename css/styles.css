@@ -149,7 +149,8 @@ body{
   transition: transform 0.3s ease;
 }
 
-.zoom-element:hover {
+.zoom-element:hover
+.zoom-element:focus {
   transform: scale(1.2);
 }
 
